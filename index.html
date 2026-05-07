@@ -1,48 +1,53 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
   <html lang="zh-CN">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>仙境传说3（RO3）攻略站 - 2026最新职业/练级/配装/副本攻略</title>
-      <meta name="description" content="专注《仙境传说3》（Ragnarok Online 3）攻略，提供2026年最
-  新职业推荐、1-99级练级路线、各职业配装、副本打法、版本更新解读，适用于v1.0.2版本。">
+      <title>仙境传说3（RO3）攻略站 - 2026最新职业/练级/配装攻略</title>
+      <meta name="description" content="专注《仙境传说3》（Ragnarok Online
+  3）攻略，提供2026年最新职业推荐、1-99级练级路线、各职业配装、副本打法，适用于v1.0.2版本。">
       <meta name="keywords" 
-  content="仙境传说3攻略,RO3攻略,仙境传说3职业推荐,RO3练级路线,仙境传说3配装,RO3副本打法">
+  content="仙境传说3攻略,RO3攻略,仙境传说3职业推荐,RO3练级路线,仙境传说3配装">
       <style>
           * { margin: 0; padding: 0; box-sizing: border-box; }
-          body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica
-  Neue", Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+          body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6; color: #333; background-color: #f8f9fa; }
           a { color: #2c3e50; text-decoration: none !important; transition: color 0.3s; }
           a:hover { color: #e74c3c; text-decoration: none !important; }
           .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
 
-          .navbar { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 1rem
-   0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
-          .navbar .container { display: flex; justify-content: space-between; align-items:
-  center; }
-          .nav-logo { color: #fff; font-size: 1.5rem; font-weight: bold; display: flex;
-  align-items: center; gap: 10px; }
+          .navbar { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 1rem 0;
+  position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+          .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+          .nav-logo { color: #fff; font-size: 1.5rem; font-weight: bold; display: flex; align-items:
+  center; gap: 10px; }
           .nav-logo::before { content: "⚔️ "; font-size: 1.8rem; }
           .nav-links { display: flex; gap: 2rem; }
-          .nav-links a { color: #ecf0f1; font-size: 1rem; padding: 0.5rem 0; border-bottom: 2px
-  solid transparent; text-decoration: none !important; }
-          .nav-links a:hover { border-bottom-color: #e74c3c; text-decoration: none !important; }
-          .menu-toggle { display: none; background: none; border: none; color: #fff; font-size:
-  1.5rem; cursor: pointer; }
+          .nav-links a { color: #ecf0f1; font-size: 1rem; padding: 0.5rem 0; border-bottom: 2px solid
+  transparent; text-decoration: none !important; }
+          .nav-links a:hover { border-bottom-color: #e74c3c; }
+          .menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.5rem;
+   cursor: pointer; }
+
+          .search-box { background: #fff; padding: 1rem; border-radius: 8px; margin: 1rem auto;
+  max-width: 600px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+          .search-box input { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px;
+   font-size: 1rem; }
+          .search-results { margin-top: 1rem; }
+          .search-results p { padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+          .search-results a { color: #2c3e50; text-decoration: none !important; }
 
           .hero { background: linear-gradient(rgba(22, 33, 62, 0.85), rgba(22, 33, 62, 0.85)),
-  url('https://picsum.photos/1200/500?random=10') center/cover; padding: 5rem 0; text-align:
-  center; color: #fff; margin-bottom: 3rem; }
-          .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px
-  rgba(0,0,0,0.5); text-decoration: none !important; }
-          .hero .subtitle { font-size: 1.3rem; max-width: 800px; margin: 0 auto 1.5rem; opacity:
-   0.9; }
-          .hero .version { display: inline-block; background: rgba(231, 76, 60, 0.9); padding:
-  0.3rem 1rem; border-radius: 20px; font-size: 0.9rem; margin-bottom: 2rem; }
-          .hero .btn-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
-   }
-          .btn { display: inline-block; padding: 0.8rem 2rem; border-radius: 5px; font-size:
-  1.1rem; font-weight: bold; transition: all 0.3s; text-decoration: none !important; }
+  url('https://picsum.photos/1200/500?random=10') center/cover; padding: 5rem 0; text-align: center;
+  color: #fff; margin-bottom: 3rem; }
+          .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-decoration: none !important; }
+          .hero .subtitle { font-size: 1.3rem; max-width: 800px; margin: 0 auto 1.5rem; opacity: 0.9; }
+          .hero .version { display: inline-block; background: rgba(231, 76, 60, 0.9); padding: 0.3rem
+  1rem; border-radius: 20px; font-size: 0.9rem; margin-bottom: 2rem; }
+          .hero .btn-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+          .btn { display: inline-block; padding: 0.8rem 2rem; border-radius: 5px; font-size: 1.1rem;
+  font-weight: bold; transition: all 0.3s; text-decoration: none !important; }
           .btn-primary { background-color: #e74c3c; color: #fff; }
           .btn-primary:hover { background-color: #c0392b; transform: translateY(-2px); }
           .btn-secondary { background-color: transparent; color: #fff; border: 2px solid #fff; }
@@ -52,57 +57,55 @@
           .section-title { font-size: 1.8rem; margin-bottom: 2rem; padding-bottom: 0.5rem;
   border-bottom: 3px solid #e74c3c; display: inline-block; }
 
-          .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px,
-  1fr)); gap: 2rem; }
-          .card { background-color: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0
-  4px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+          .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:
+   2rem; }
+          .card { background-color: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px
+   rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
           .card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
           .card-img { width: 100%; height: 200px; object-fit: cover; }
           .card-content { padding: 1.5rem; }
-          .card-tag { display: inline-block; background: #3498db; color: #fff; padding: 0.2rem
-  0.8rem; border-radius: 3px; font-size: 0.8rem; margin-bottom: 0.8rem; }
+          .card-tag { display: inline-block; background: #3498db; color: #fff; padding: 0.2rem 0.8rem;
+  border-radius: 3px; font-size: 0.8rem; margin-bottom: 0.8rem; }
           .card-tag.hot { background: #e74c3c; }
           .card-tag.new { background: #2ecc71; }
           .card-content h3 { font-size: 1.3rem; margin-bottom: 0.8rem; line-height: 1.4; }
           .card-content h3 a { text-decoration: none !important; }
           .card-content p { color: #666; margin-bottom: 1rem; font-size: 0.95rem; }
-          .card-meta { display: flex; justify-content: space-between; color: #999; font-size:
-  0.85rem; }
+          .card-meta { display: flex; justify-content: space-between; color: #999; font-size: 0.85rem;
+  }
           .card-meta span { text-decoration: none !important; }
 
           .main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 2rem; }
-          .sidebar { background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px
-  15px rgba(0,0,0,0.1); height: fit-content; }
-          .sidebar h3 { font-size: 1.2rem; margin-bottom: 1rem; padding-bottom: 0.5rem;
-  border-bottom: 2px solid #eee; }
+          .sidebar { background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 15px
+  rgba(0,0,0,0.1); height: fit-content; }
+          .sidebar h3 { font-size: 1.2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom:
+  2px solid #eee; }
           .sidebar ul { list-style: none; }
           .sidebar li { padding: 0.6rem 0; border-bottom: 1px solid #f5f5f5; }
           .sidebar li:last-child { border-bottom: none; }
           .sidebar a { color: #555; font-size: 0.95rem; text-decoration: none !important; }
-          .sidebar a:hover { color: #e74c3c; text-decoration: none !important; }
+          .sidebar a:hover { color: #e74c3c; }
 
-          .ad-box { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: 2px
-  dashed #dee2e6; padding: 2.5rem; text-align: center; margin: 2rem 0; color: #6c757d;
-  border-radius: 10px; }
+          .ad-box { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: 2px dashed
+  #dee2e6; padding: 2.5rem; text-align: center; margin: 2rem 0; color: #6c757d; border-radius: 10px; }
           .ad-box .ad-label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;
-   margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem; }
 
-          .footer { background: #1a1a2e; color: #ecf0f1; padding: 3rem 0 2rem; margin-top: 4rem;
-   }
-          .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,
-   1fr)); gap: 2rem; margin-bottom: 2rem; }
-          .footer h4 { color: #fff; margin-bottom: 1rem; font-size: 1.1rem; }
-          .footer p, .footer a { color: #bdc3c7; font-size: 0.9rem; text-decoration: none
-  !important; }
-          .footer a:hover { color: #e74c3c; text-decoration: none !important; }
-          .footer-bottom { text-align: center; padding-top: 2rem; border-top: 1px solid #2c3e50;
-   color: #95a5a6; font-size: 0.85rem; text-decoration: none !important; }
+          .footer { background: #1a1a2e; color: #ecf0f1; padding: 3rem 0 2rem; margin-top: 4rem; }
+          .footer .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+          .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 2rem; margin-bottom: 2rem; }
+          .footer h4 { color: #fff; margin-bottom: 1rem; }
+          .footer p, .footer a { color: #bdc3c7; font-size: 0.9rem; text-decoration: none !important; }
+          .footer a:hover { color: #e74c3c; }
+          .footer-bottom { text-align: center; padding-top: 2rem; border-top: 1px solid #2c3e50; color:
+   #95a5a6; font-size: 0.85rem; }
 
           @media (max-width: 768px) {
-              .nav-links { display: none; flex-direction: column; position: absolute; top: 60px;
-   left: 0; right: 0; background: #1a1a2e; padding: 1rem; gap: 0; }
-              .nav-links a { padding: 0.8rem 1rem; border-bottom: 1px solid #2c3e50;
-  text-decoration: none !important; }
+              .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left:
+  0; right: 0; background: #1a1a2e; padding: 1rem; gap: 0; }
+              .nav-links a { padding: 0.8rem 1rem; border-bottom: 1px solid #2c3e50; text-decoration:
+  none !important; }
               .nav-links.active { display: flex; }
               .menu-toggle { display: block; }
               .hero h1 { font-size: 2rem; }
@@ -122,30 +125,35 @@
                   <a href="ro3-job-guide.html">职业攻略</a>
                   <a href="ro3-leveling-guide.html">练级路线</a>
                   <a href="ro3-mage-equip.html">配装推荐</a>
-                  <a href="#">副本打法</a>
-                  <a href="#">版本更新</a>
+                  <a href="ro3-newbie-faq.html">新手FAQ</a>
+                  <a href="ro3-version-log.html">版本更新</a>
               </div>
           </div>
       </nav>
 
-      <section class="hero">
-          <div class="container">
-              <div class="version">📌 当前适配版本：RO3 v1.0.2</div>
-              <h1>仙境传说3（RO3）攻略站</h1>
-              <p 
-  class="subtitle">2026年最新攻略，覆盖全职业、练级、配装、副本，定期更新，拒绝过时内容</p>
-              <div class="btn-group">
-                  <a href="ro3-job-guide.html" class="btn btn-primary">查看职业攻略</a>
-                  <a href="ro3-leveling-guide.html" class="btn btn-secondary">练级路线</a>
-              </div>
-          </div>
-      </section>
-
       <div class="container">
+          <div class="search-box">
+              <input type="text" id="searchInput" placeholder="搜索攻略（如：法师、练级、配装）">
+              <div class="search-results" id="searchResults"></div>
+          </div>
+
           <div class="ad-box">
               <div class="ad-label">广告位</div>
               <p>🔔 日均UV≥1000后接入Google AdSense/百度联盟广告</p>
           </div>
+
+          <section class="hero">
+              <div class="container">
+                  <div class="version">📌 当前适配版本：RO3 v1.0.2</div>
+                  <h1>仙境传说3（RO3）攻略站</h1>
+                  <p 
+  class="subtitle">2026年最新攻略，覆盖全职业、练级、配装、副本，定期更新，拒绝过时内容</p>
+                  <div class="btn-group">
+                      <a href="ro3-job-guide.html" class="btn btn-primary">查看职业攻略</a>
+                      <a href="ro3-leveling-guide.html" class="btn btn-secondary">练级路线</a>
+                  </div>
+              </div>
+          </section>
 
           <div class="section">
               <h2 class="section-title">🔥 热门攻略</h2>
@@ -157,8 +165,7 @@
                           <span class="card-tag hot">热门</span>
                           <h3><a 
   href="ro3-job-guide.html">RO3新手职业推荐2026（零氪/微氪必看）</a></h3>
-
-  <p>分析剑士、法师、刺客、牧师等所有职业优缺点，零氪玩家选什么不后悔。</p>
+                          <p>分析剑士、法师、刺客、牧师等所有职业优缺点，零氪玩家选什么不后悔。</p>
                           <div class="card-meta">
                               <span>📅 2026-05-07</span>
                               <span>👁️  1.2k阅读</span>
@@ -202,7 +209,8 @@
                       <h2 class="section-title">🆕 最新更新</h2>
                       <div class="card">
                           <div class="card-content">
-                              <h3><a href="#">RO3 v1.0.2版本更新内容解读（2026.5.7）</a></h3>
+                              <h3><a href="ro3-version-log.html">RO3
+  v1.0.2版本更新内容解读（2026.5.7）</a></h3>
 
   <p>本次更新调整了法师技能伤害、新增古城副本、修复了刺客卡怪BUG，附旧攻略失效说明。</p>
                               <div class="card-meta">
@@ -226,11 +234,11 @@
                   </ul>
                   <h3 style="margin-top: 1.5rem;">🔥 热门分类</h3>
                   <ul>
-                      <li><a href="#">新手攻略 (12)</a></li>
-                      <li><a href="#">职业攻略 (8)</a></li>
-                      <li><a href="#">练级路线 (6)</a></li>
-                      <li><a href="#">配装推荐 (5)</a></li>
-                      <li><a href="#">副本打法 (4)</a></li>
+                      <li><a href="ro3-job-guide.html">职业攻略</a></li>
+                      <li><a href="ro3-leveling-guide.html">练级路线</a></li>
+                      <li><a href="ro3-mage-equip.html">配装推荐</a></li>
+                      <li><a href="ro3-newbie-faq.html">新手FAQ</a></li>
+                      <li><a href="ro3-version-log.html">版本更新</a></li>
                   </ul>
                   <h3 style="margin-top: 1.5rem;">📢 公告</h3>
                   <p style="font-size: 0.9rem; color:
@@ -252,7 +260,7 @@
                       <p><a href="index.html">首页</a></p>
                       <p><a href="ro3-job-guide.html">职业攻略</a></p>
                       <p><a href="ro3-leveling-guide.html">练级路线</a></p>
-                      <p><a href="ro3-mage-equip.html">配装数据库</a></p>
+                      <p><a href="ro3-mage-equip.html">配装推荐</a></p>
                   </div>
                   <div>
                       <h4>联系我们</h4>
@@ -261,8 +269,8 @@
                   </div>
               </div>
               <div class="footer-bottom">
-                  <p>© 2026 仙境传说3攻略站 | 本站内容均为原创/整理，转载请注明出处 |
-  适配版本：RO3 v1.0.2</p>
+                  <p>© 2026 仙境传说3攻略站 | 本站内容均为原创/整理，转载请注明出处 | 适配版本：RO3
+  v1.0.2</p>
               </div>
           </div>
       </footer>
@@ -278,6 +286,28 @@
               if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
                   navLinks.classList.remove('active');
               }
+          });
+
+          const pages = [
+              { title: "RO3新手职业推荐2026（零氪/微氪必看）", url: "ro3-job-guide.html", keywords:
+  "职业、剑士、法师、刺客、牧师" },
+              { title: "RO3 1-99级最快练级路线（v1.0.2适用）", url: "ro3-leveling-guide.html",
+  keywords: "练级、刷怪、坐标、经验" },
+              { title: "RO3法师毕业配装推荐（平民/氪金两套方案）", url: "ro3-mage-equip.html",
+  keywords: "配装、法师、平民、氪金" },
+              { title: "RO3新手10大常见问题解答2026", url: "ro3-newbie-faq.html", keywords:
+  "金币、卡任务、转职、问题" },
+              { title: "RO3 v1.0.2版本更新全解读（2026.5.7）", url: "ro3-version-log.html", keywords:
+  "版本、更新、BUG" }
+          ];
+          document.getElementById('searchInput').addEventListener('input', function(e) {
+              const val = e.target.value.toLowerCase();
+              if (!val) { document.getElementById('searchResults').innerHTML = ''; return; }
+              const results = pages.filter(p => p.title.toLowerCase().includes(val) ||
+  p.keywords.toLowerCase().includes(val));
+              document.getElementById('searchResults').innerHTML = results.length ?
+                  results.map(r => `<p><a href="${r.url}">${r.title}</a></p>`).join('') :
+                  '<p style="color:#999;">未找到相关攻略</p>';
           });
       </script>
   </body>
