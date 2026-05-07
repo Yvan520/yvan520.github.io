@@ -1,179 +1,298 @@
-<!DOCTYPE html>
-
+ <!DOCTYPE html>
   <html lang="zh-CN">
-
   <head>
-
       <meta charset="UTF-8">
-
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <title>仙境传说3（RO3）攻略站 - 2026最新职业/练级/配装攻略</title>
-
-      <meta name="description" content="专注《仙境传说3》（Ragnarok Online
-
-  3）攻略，提供2026年最新职业推荐、1-99级练级路线、各职业配装、副本打法，适用于v
-
-  1.0.2版本。">
-
+      <title>仙境传说3（RO3）攻略站 - 2026最新职业/练级/配装/副本攻略</title>
+      <meta name="description" content="专注《仙境传说3》（Ragnarok Online 3）攻略，提供2026年最
+  新职业推荐、1-99级练级路线、各职业配装、副本打法、版本更新解读，适用于v1.0.2版本。">
       <meta name="keywords" 
+  content="仙境传说3攻略,RO3攻略,仙境传说3职业推荐,RO3练级路线,仙境传说3配装,RO3副本打法">
+      <style>
+          * { margin: 0; padding: 0; box-sizing: border-box; }
+          body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica
+  Neue", Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+          a { color: #2c3e50; text-decoration: none; transition: color 0.3s; }
+          a:hover { color: #e74c3c; }
+          .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
 
-  content="仙境传说3攻略,RO3攻略,仙境传说3职业推荐,RO3练级路线,仙境传说3配装">
+          /* 导航栏 */
+          .navbar { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 1rem
+   0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+          .navbar .container { display: flex; justify-content: space-between; align-items:
+  center; }
+          .nav-logo { color: #fff; font-size: 1.5rem; font-weight: bold; display: flex;
+  align-items: center; gap: 10px; }
+          .nav-logo::before { content: "⚔️ "; font-size: 1.8rem; }
+          .nav-links { display: flex; gap: 2rem; }
+          .nav-links a { color: #ecf0f1; font-size: 1rem; padding: 0.5rem 0; border-bottom: 2px
+  solid transparent; }
+          .nav-links a:hover { border-bottom-color: #e74c3c; }
+          .menu-toggle { display: none; background: none; border: none; color: #fff; font-size:
+  1.5rem; cursor: pointer; }
 
-      <link rel="stylesheet" href="style.css">
+          /* 英雄区 */
+          .hero { background: linear-gradient(rgba(22, 33, 62, 0.85), rgba(22, 33, 62, 0.85)),
+  url('https://picsum.photos/1200/500?random=10') center/cover; padding: 5rem 0; text-align:
+  center; color: #fff; margin-bottom: 3rem; }
+          .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px
+  rgba(0,0,0,0.5); }
+          .hero .subtitle { font-size: 1.3rem; max-width: 800px; margin: 0 auto 1.5rem; opacity:
+   0.9; }
+          .hero .version { display: inline-block; background: rgba(231, 76, 60, 0.9); padding:
+  0.3rem 1rem; border-radius: 20px; font-size: 0.9rem; margin-bottom: 2rem; }
+          .hero .btn-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+   }
+          .btn { display: inline-block; padding: 0.8rem 2rem; border-radius: 5px; font-size:
+  1.1rem; font-weight: bold; transition: all 0.3s; }
+          .btn-primary { background-color: #e74c3c; color: #fff; }
+          .btn-primary:hover { background-color: #c0392b; transform: translateY(-2px); }
+          .btn-secondary { background-color: transparent; color: #fff; border: 2px solid #fff; }
+          .btn-secondary:hover { background-color: #fff; color: #1a1a2e; }
 
+          /* 内容区 */
+          .section { margin-bottom: 3rem; }
+          .section-title { font-size: 1.8rem; margin-bottom: 2rem; padding-bottom: 0.5rem;
+  border-bottom: 3px solid #e74c3c; display: inline-block; }
+
+          /* 卡片网格 */
+          .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px,
+  1fr)); gap: 2rem; }
+          .card { background-color: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0
+  4px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+          .card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+          .card-img { width: 100%; height: 200px; object-fit: cover; }
+          .card-content { padding: 1.5rem; }
+          .card-tag { display: inline-block; background: #3498db; color: #fff; padding: 0.2rem
+  0.8rem; border-radius: 3px; font-size: 0.8rem; margin-bottom: 0.8rem; }
+          .card-tag.hot { background: #e74c3c; }
+          .card-tag.new { background: #2ecc71; }
+          .card-content h3 { font-size: 1.3rem; margin-bottom: 0.8rem; line-height: 1.4; }
+          .card-content p { color: #666; margin-bottom: 1rem; font-size: 0.95rem; }
+          .card-meta { display: flex; justify-content: space-between; color: #999; font-size:
+  0.85rem; }
+
+          /* 侧边栏和主内容布局 */
+          .main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 2rem; }
+          .sidebar { background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px
+  15px rgba(0,0,0,0.1); height: fit-content; }
+          .sidebar h3 { font-size: 1.2rem; margin-bottom: 1rem; padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee; }
+          .sidebar ul { list-style: none; }
+          .sidebar li { padding: 0.6rem 0; border-bottom: 1px solid #f5f5f5; }
+          .sidebar li:last-child { border-bottom: none; }
+          .sidebar a { color: #555; font-size: 0.95rem; }
+          .sidebar a:hover { color: #e74c3c; }
+
+          /* 广告位 */
+          .ad-box { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: 2px
+  dashed #dee2e6; padding: 2.5rem; text-align: center; margin: 2rem 0; color: #6c757d;
+  border-radius: 10px; }
+          .ad-box .ad-label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;
+   margin-bottom: 0.5rem; }
+
+          /* 页脚 */
+          .footer { background: #1a1a2e; color: #ecf0f1; padding: 3rem 0 2rem; margin-top: 4rem;
+   }
+          .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,
+   1fr)); gap: 2rem; margin-bottom: 2rem; }
+          .footer h4 { color: #fff; margin-bottom: 1rem; font-size: 1.1rem; }
+          .footer p, .footer a { color: #bdc3c7; font-size: 0.9rem; }
+          .footer a:hover { color: #e74c3c; }
+          .footer-bottom { text-align: center; padding-top: 2rem; border-top: 1px solid #2c3e50;
+   color: #95a5a6; font-size: 0.85rem; }
+
+          /* 移动端适配 */
+          @media (max-width: 768px) {
+              .nav-links { display: none; flex-direction: column; position: absolute; top: 60px;
+   left: 0; right: 0; background: #1a1a2e; padding: 1rem; gap: 0; }
+              .nav-links a { padding: 0.8rem 1rem; border-bottom: 1px solid #2c3e50; }
+              .nav-links.active { display: flex; }
+              .menu-toggle { display: block; }
+              .hero h1 { font-size: 2rem; }
+              .hero .subtitle { font-size: 1rem; }
+              .main-layout { grid-template-columns: 1fr; }
+              .sidebar { order: -1; }
+          }
+      </style>
   </head>
-
   <body>
-
+      <!-- 导航栏 -->
       <nav class="navbar">
-
           <div class="container">
-
               <a href="index.html" class="nav-logo">RO3攻略站</a>
-
               <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
               <div class="nav-links" id="navLinks">
-
                   <a href="index.html">首页</a>
-
                   <a href="ro3-job-guide.html">职业攻略</a>
-
                   <a href="ro3-leveling-guide.html">练级路线</a>
-
+                  <a href="#">装备数据库</a>
+                  <a href="#">副本打法</a>
+                  <a href="#">版本更新</a>
               </div>
-
           </div>
-
       </nav>
 
-
-
+      <!-- 英雄区 -->
       <section class="hero">
-
           <div class="container">
-
-              <h1>仙境传说3（RO3）2026最新攻略</h1>
-
-              <p>专注RO3全职业攻略、1-99级练级路线、毕业配装推荐，所有内容适配v1
-
-  .0.2版本，定期更新。</p>
-
-              <a href="ro3-job-guide.html" class="btn">查看职业攻略</a>
-
+              <div class="version">📌 当前适配版本：RO3 v1.0.2</div>
+              <h1>仙境传说3（RO3）攻略站</h1>
+              <p 
+  class="subtitle">2026年最新攻略，覆盖全职业、练级、配装、副本，定期更新，拒绝过时内容</p>
+              <div class="btn-group">
+                  <a href="ro3-job-guide.html" class="btn btn-primary">查看职业攻略</a>
+                  <a href="ro3-leveling-guide.html" class="btn btn-secondary">练级路线</a>
+              </div>
           </div>
-
       </section>
 
-
-
       <div class="container">
+          <!-- 顶部广告位 -->
+          <div class="ad-box">
+              <div class="ad-label">广告位</div>
+              <p>🔔 日均UV≥1000后接入Google AdSense/百度联盟广告</p>
+          </div>
 
-          <div class="ad-box">🔔
-
-  广告位预留：日均流量达标后接入Google/百度广告</div>
-
-
-
-          <h2 style="margin-bottom: 1.5rem;">最新攻略</h2>
-
-          <div class="card-grid">
-
-              <div class="card">
-
-                  <img src="https://picsum.photos/600/400?random=2" 
-
-  alt="RO3职业推荐">
-
-                  <div class="card-content">
-
-                      <h3><a 
-
+          <!-- 热门攻略 -->
+          <div class="section">
+              <h2 class="section-title">🔥 热门攻略</h2>
+              <div class="card-grid">
+                  <div class="card">
+                      <img src="https://picsum.photos/600/400?random=11" alt="RO3职业推荐" 
+  class="card-img">
+                      <div class="card-content">
+                          <span class="card-tag hot">热门</span>
+                          <h3><a 
   href="ro3-job-guide.html">RO3新手职业推荐2026（零氪/微氪必看）</a></h3>
 
-                      <p>分析所有职业的优缺点，零氪玩家选什么职业不后悔，微氪玩
-
-  家优先培养哪个职业。</p>
-
-                      <div class="meta">发布于 2026-05-07 | 分类：新手攻略</div>
-
+  <p>分析剑士、法师、刺客、牧师等所有职业优缺点，零氪玩家选什么不后悔。</p>
+                          <div class="card-meta">
+                              <span>📅 2026-05-07</span>
+                              <span>👁️  1.2k阅读</span>
+                          </div>
+                      </div>
                   </div>
-
-              </div>
-
-              <div class="card">
-
-                  <img src="https://picsum.photos/600/400?random=3" 
-
-  alt="RO3练级路线">
-
-                  <div class="card-content">
-
-                      <h3><a href="ro3-leveling-guide.html">RO3
-
+                  <div class="card">
+                      <img src="https://picsum.photos/600/400?random=12" alt="RO3练级路线" 
+  class="card-img">
+                      <div class="card-content">
+                          <span class="card-tag new">最新</span>
+                          <h3><a href="ro3-leveling-guide.html">RO3
   1-99级最快练级路线（v1.0.2适用）</a></h3>
-
-
-
-  <p>分职业、分等级段整理最优练级点，附效率对比和注意事项，节省50%练级时间。</p>
-
-                      <div class="meta">发布于 2026-05-06 | 分类：练级攻略</div>
-
+                          <p>分职业、分等级段整理最优练级点，附效率对比，节省50%练级时间。</p>
+                          <div class="card-meta">
+                              <span>📅 2026-05-06</span>
+                              <span>👁️  980阅读</span>
+                          </div>
+                      </div>
                   </div>
-
+                  <div class="card">
+                      <img src="https://picsum.photos/600/400?random=13" alt="RO3配装推荐" 
+  class="card-img">
+                      <div class="card-content">
+                          <span class="card-tag">配装</span>
+                          <h3><a href="#">RO3法师毕业配装推荐（平民/氪金两套方案）</a></h3>
+                          <p>整理法师各阶段配装，从前期过渡到毕业装，附卡片搭配和属性加点。</p>
+                          <div class="card-meta">
+                              <span>📅 2026-05-05</span>
+                              <span>👁️  856阅读</span>
+                          </div>
+                      </div>
+                  </div>
               </div>
-
           </div>
 
+          <!-- 主内容+侧边栏 -->
+          <div class="main-layout">
+              <div>
+                  <!-- 最新更新 -->
+                  <div class="section">
+                      <h2 class="section-title">🆕 最新更新</h2>
+                      <div class="card">
+                          <div class="card-content">
+                              <h3><a href="#">RO3 v1.0.2版本更新内容解读（2026.5.7）</a></h3>
+
+  <p>本次更新调整了法师技能伤害、新增古城副本、修复了刺客卡怪BUG，附旧攻略失效说明。</p>
+                              <div class="card-meta">
+                                  <span>📅 2026-05-07</span>
+                                  <span>🏷️  版本更新</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- 中间广告位 -->
+                  <div class="ad-box">
+                      <div class="ad-label">广告位</div>
+                      <p>🔔 文章列表广告位预留</p>
+                  </div>
+              </div>
+
+              <!-- 侧边栏 -->
+              <div class="sidebar">
+                  <h3>📌 版本信息</h3>
+                  <ul>
+                      <li>当前版本：v1.0.2</li>
+                      <li>最后更新：2026-05-07</li>
+                      <li>下次更新：预计2026-05-15</li>
+                  </ul>
+                  <h3 style="margin-top: 1.5rem;">🔥 热门分类</h3>
+                  <ul>
+                      <li><a href="#">新手攻略 (12)</a></li>
+                      <li><a href="#">职业攻略 (8)</a></li>
+                      <li><a href="#">练级路线 (6)</a></li>
+                      <li><a href="#">配装推荐 (5)</a></li>
+                      <li><a href="#">副本打法 (4)</a></li>
+                  </ul>
+                  <h3 style="margin-top: 1.5rem;">📢 公告</h3>
+                  <p style="font-size: 0.9rem; color:
+  #666;">所有攻略均标注适用版本，过期内容会及时更新或标注，请放心参考。</p>
+              </div>
+          </div>
       </div>
 
-
-
+      <!-- 页脚 -->
       <footer class="footer">
-
           <div class="container">
-
-              <p>© 2026 仙境传说3攻略站 |
-
-  本站内容均为原创/整理，转载请注明出处</p>
-
-              <p>适配版本：RO3 v1.0.2 | 最后更新：2026-05-07</p>
-
+              <div class="footer-content">
+                  <div>
+                      <h4>关于RO3攻略站</h4>
+                      <p>专注仙境传说3（Ragnarok Online
+  3）攻略，提供最新、最全、最准确的游戏攻略，帮助玩家快速上手、少走弯路。</p>
+                  </div>
+                  <div>
+                      <h4>快速链接</h4>
+                      <p><a href="index.html">首页</a></p>
+                      <p><a href="ro3-job-guide.html">职业攻略</a></p>
+                      <p><a href="ro3-leveling-guide.html">练级路线</a></p>
+                      <p><a href="#">装备数据库</a></p>
+                  </div>
+                  <div>
+                      <h4>联系我们</h4>
+                      <p>邮箱：ro3guide@example.com</p>
+                      <p>更新频率：每周2-3篇</p>
+                  </div>
+              </div>
+              <div class="footer-bottom">
+                  <p>© 2026 仙境传说3攻略站 | 本站内容均为原创/整理，转载请注明出处 |
+  适配版本：RO3 v1.0.2</p>
+              </div>
           </div>
-
       </footer>
 
-
-
       <script>
-
           function toggleMenu() {
-
               const navLinks = document.getElementById('navLinks');
-
               navLinks.classList.toggle('active');
-
           }
-
           document.addEventListener('click', (e) => {
-
               const navLinks = document.getElementById('navLinks');
-
               const menuToggle = document.querySelector('.menu-toggle');
-
-              if (!navLinks.contains(e.target) &&
-
-  !menuToggle.contains(e.target)) {
-
+              if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
                   navLinks.classList.remove('active');
-
               }
-
           });
-
       </script>
-
   </body>
-
   </html>
