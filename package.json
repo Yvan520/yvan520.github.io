@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && node scripts/gen-sitemap.mjs",
     "preview": "vitepress preview docs"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "sitemap": "^9.0.1"
   }
 }
