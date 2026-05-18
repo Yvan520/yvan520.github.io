@@ -89,7 +89,7 @@ export default {
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourname/ro3-guide' },
+      { icon: 'github', link: 'https://github.com/Yvan520/yvan520.github.io' },
     ],
 
     lastUpdated: { text: '最后更新' },
