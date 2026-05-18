@@ -14,6 +14,7 @@ description: RO3 仙境传说3 最新官方资讯动态
 
 ## 2025年
 
+- [首支完整实机预告片公开 先锋测试招募](/news/gameplay-trailer-202507) (2025-07)
 - [GRAVITY 愿景发表会：赛季制确认、千人攻城战](/news/gravity-vision-202512) (2025-12)
 - [RO3 开放事前预约 领地争霸战体验赛](/news/preorder-territory-202511) (2025-11)
 - [GVG「巅峰对决」实机影片公开](/news/gvg-gameplay-202510) (2025-10)
