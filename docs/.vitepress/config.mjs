@@ -9,7 +9,14 @@ export default {
       { text: '新手指南', items: [
         { text: '新手FAQ', link: '/guide/faq' },
         { text: '练级路线', link: '/guide/leveling' },
+        { text: '核心系统介绍', link: '/guide/systems' },
         { text: '版本更新', link: '/guide/version-v102' },
+      ]},
+      { text: '游戏资讯', items: [
+        { text: '最新消息', link: '/news/' },
+        { text: '七大职业立绘曝光', link: '/news/artworks-202603' },
+        { text: '制作人专访', link: '/news/interview-202601' },
+        { text: '国服版号获批', link: '/news/approval-202510' },
       ]},
       { text: '职业攻略', items: [
         { text: '总览', link: '/jobs/' },
@@ -31,7 +38,19 @@ export default {
           items: [
             { text: '新手FAQ', link: '/guide/faq' },
             { text: '练级路线', link: '/guide/leveling' },
+            { text: '核心系统介绍', link: '/guide/systems' },
             { text: '版本更新 v1.0.2', link: '/guide/version-v102' },
+          ],
+        },
+      ],
+      '/news/': [
+        {
+          text: '游戏资讯',
+          items: [
+            { text: '最新消息', link: '/news/' },
+            { text: '七大职业立绘曝光', link: '/news/artworks-202603' },
+            { text: '制作人专访', link: '/news/interview-202601' },
+            { text: '国服版号获批', link: '/news/approval-202510' },
           ],
         },
       ],
