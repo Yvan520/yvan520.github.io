@@ -1,0 +1,25 @@
+.VPHero {
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+              url('/hero-bg.jpg') center center / cover no-repeat;
+}
+
+.VPHero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.VPHero .name,
+.VPHero .text {
+  color: #fff !important;
+}
+
+.VPHero .tagline {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPHero .actions .brand {
+  background-color: #e6a817 !important;
+  border-color: #e6a817 !important;
+  color: #1a1a2e !important;
+}
