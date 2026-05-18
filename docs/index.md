@@ -5,6 +5,9 @@ hero:
   name: RO3 攻略站
   text: 仙境传说3 玩家指南
   tagline: 2026年最新攻略，覆盖全职业、练级、配装，定期更新
+  image:
+    src: /ro3-hero.webp
+    alt: RO3 仙境传说3
   actions:
     - theme: brand
       text: 查看职业攻略
