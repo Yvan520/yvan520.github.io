@@ -12,6 +12,7 @@ export default {
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'keywords', content: '仙境传说3,RO3,Ragnarok Online 3,攻略,职业加点,练级路线,配装,仙境传说3攻略' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX', crossorigin: 'anonymous', async: '' }],
   ],
 
