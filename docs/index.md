@@ -4,7 +4,7 @@ layout: home
 hero:
   name: RO3 攻略站
   text: 仙境传说3 玩家指南
-  tagline: 2026年最新攻略，覆盖全职业、练级、配装，定期更新
+  tagline: 2026年最全RO3攻略站，七大职业加点、练级路线、配装推荐、最新资讯，每日更新
   actions:
     - theme: brand
       text: 查看职业攻略

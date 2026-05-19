@@ -3,6 +3,18 @@ export default {
   description: '仙境传说3攻略 - 全职业加点、练级路线、配装推荐',
   lang: 'zh-CN',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'RO3 攻略站 - 仙境传说3玩家指南' }],
+    ['meta', { property: 'og:description', content: '2026年仙境传说3最全攻略站，覆盖七大职业加点、练级路线、配装推荐、最新资讯，新手快速上手必备。' }],
+    ['meta', { property: 'og:image', content: 'https://ro3.gamewayz.com/hero-bg.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://ro3.gamewayz.com' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'keywords', content: '仙境传说3,RO3,Ragnarok Online 3,攻略,职业加点,练级路线,配装,仙境传说3攻略' }],
+    ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX', crossorigin: 'anonymous', async: '' }],
+  ],
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -22,6 +34,7 @@ export default {
         { text: 'GVG实机影片公开', link: '/news/gvg-gameplay-202510' },
         { text: '制作人面对面QA', link: '/news/producer-qa-202510' },
         { text: '国服版号获批', link: '/news/approval-202510' },
+        { text: '日本服代理确定', link: '/news/japan-launch-202602' },
       ]},
       { text: '职业攻略', items: [
         { text: '总览', link: '/jobs/' },
@@ -61,6 +74,7 @@ export default {
             { text: 'GVG实机影片公开', link: '/news/gvg-gameplay-202510' },
             { text: '制作人面对面QA', link: '/news/producer-qa-202510' },
             { text: '国服版号获批', link: '/news/approval-202510' },
+            { text: '日本服代理确定', link: '/news/japan-launch-202602' },
           ],
         },
       ],
@@ -94,7 +108,7 @@ export default {
     search: { provider: 'local' },
 
     footer: {
-      message: '数据来源于玩家投稿，欢迎纠错',
+      message: '数据来源于玩家投稿，欢迎纠错 | <a href="/privacy">隐私政策</a> | <a href="/terms">服务条款</a>',
       copyright: 'Copyright 2026 RO3 攻略站 | 适配版本：v1.0.2',
     },
 
