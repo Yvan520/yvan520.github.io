@@ -103,6 +103,10 @@
   display: none;
 }
 
+.VPNavBar .VPSocialLinks {
+  display: none;
+}
+
 .VPNavBar.has-sidebar .VPNavBar {
   background-color: #1A1A2E !important;
 }

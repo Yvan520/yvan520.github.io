@@ -113,9 +113,7 @@ export default {
       copyright: 'Copyright 2026 RO3 攻略站 | 适配版本：v1.0.2',
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yvan520/yvan520.github.io' },
-    ],
+    socialLinks: [],
 
     lastUpdated: { text: '最后更新' },
   },
