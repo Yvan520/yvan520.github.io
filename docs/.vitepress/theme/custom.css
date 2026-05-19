@@ -201,24 +201,28 @@
 
 .VPHome .VPFeatures .container {
   padding-top: 40px;
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
 }
 
 .VPHome .VPFeatures .items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  padding: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
 }
 
-.VPHome .VPFeatures .item {
+.VPHome .VPFeatures .item.grid-3 {
+  width: calc(100% / 3 - 24px);
+  margin: 0 12px 24px;
   background: #fff;
   border-radius: 12px;
   padding: 28px;
   transition: all 0.3s;
   border: 1px solid var(--vp-c-border);
+  box-sizing: border-box;
 }
 
-.VPHome .VPFeatures .item:hover {
+.VPHome .VPFeatures .item.grid-3:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
   border-color: #D4A843;
@@ -227,6 +231,7 @@
 .VPHome .VPFeatures .icon {
   font-size: 36px !important;
   margin-bottom: 16px;
+  display: block;
 }
 
 .VPHome .VPFeatures .title {
