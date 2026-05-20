@@ -23,6 +23,7 @@ export default {
         { text: '新手FAQ', link: '/guide/faq' },
         { text: '练级路线', link: '/guide/leveling' },
         { text: '核心系统介绍', link: '/guide/systems' },
+        { text: '装备制作与精炼', link: '/guide/crafting' },
         { text: '版本更新', link: '/guide/version-v102' },
       ]},
       { text: '游戏资讯', items: [
@@ -36,6 +37,7 @@ export default {
         { text: '制作人面对面QA', link: '/news/producer-qa-202510' },
         { text: '国服版号获批', link: '/news/approval-202510' },
         { text: '日本服代理确定', link: '/news/japan-launch-202602' },
+        { text: '领土战玩法预告', link: '/news/territory-war-202603' },
       ]},
       { text: '职业攻略', items: [
         { text: '总览', link: '/jobs/' },
@@ -58,6 +60,7 @@ export default {
             { text: '新手FAQ', link: '/guide/faq' },
             { text: '练级路线', link: '/guide/leveling' },
             { text: '核心系统介绍', link: '/guide/systems' },
+            { text: '装备制作与精炼', link: '/guide/crafting' },
             { text: '版本更新 v1.0.2', link: '/guide/version-v102' },
           ],
         },
@@ -76,6 +79,7 @@ export default {
             { text: '制作人面对面QA', link: '/news/producer-qa-202510' },
             { text: '国服版号获批', link: '/news/approval-202510' },
             { text: '日本服代理确定', link: '/news/japan-launch-202602' },
+            { text: '领土战玩法预告', link: '/news/territory-war-202603' },
           ],
         },
       ],

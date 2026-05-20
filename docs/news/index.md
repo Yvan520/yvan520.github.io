@@ -9,6 +9,7 @@ description: RO3 仙境传说3 最新官方资讯动态
 
 ## 2026年
 
+- [RO3「全民领土战」玩法实机预告片发布](/news/territory-war-202603) (2026-03)
 - [RO3 日本服宣布由 GungHo 代理发行](/news/japan-launch-202602) (2026-02)
 - [RO3 七大职业立绘首度曝光](/news/artworks-202603)
 - [制作人专访：赛季制、百人副本、多元宇宙](/news/interview-202601)
