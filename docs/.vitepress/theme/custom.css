@@ -38,6 +38,8 @@
   --vp-layout-max-width: 1440px;
   --vp-content-max-width: 800px;
   --vp-home-hero-image: none;
+  --vp-nav-bg-color: #1A1A2E;
+  --vp-nav-screen-bg-color: #1A1A2E;
 }
 
 ::selection {
@@ -105,10 +107,6 @@
 
 .VPNavBar .VPSocialLinks {
   display: none;
-}
-
-.VPNavBar.has-sidebar .VPNavBar {
-  background-color: #1A1A2E !important;
 }
 
 .VPNavBar .divider {
