@@ -19,6 +19,8 @@ export default {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '新手入坑', link: '/guide/newbie' },
+      { text: '职业选择推荐', link: '/guide/job-pick' },
       { text: '新手指南', items: [
         { text: '新手FAQ', link: '/guide/faq' },
         { text: '练级路线', link: '/guide/leveling' },
@@ -58,6 +60,8 @@ export default {
           text: '新手指南',
           items: [
             { text: '新手FAQ', link: '/guide/faq' },
+            { text: '新手入坑指南', link: '/guide/newbie' },
+            { text: '职业选择推荐', link: '/guide/job-pick' },
             { text: '练级路线', link: '/guide/leveling' },
             { text: '核心系统介绍', link: '/guide/systems' },
             { text: '装备制作与精炼', link: '/guide/crafting' },
@@ -80,6 +84,8 @@ export default {
             { text: '国服版号获批', link: '/news/approval-202510' },
             { text: '日本服代理确定', link: '/news/japan-launch-202602' },
             { text: '领土战玩法预告', link: '/news/territory-war-202603' },
+            { text: 'Emperium攻城战', link: '/news/emperium-showdown-202510' },
+            { text: '台北电玩展回顾', link: '/news/tgs-202502' },
           ],
         },
       ],
