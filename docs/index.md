@@ -19,10 +19,23 @@ features:
     details: RO3新手职业推荐2026（零氪/微氪必看）
     link: /jobs/
   - icon: 🆕
-    title: 最新更新
-    details: v1.0.2版本更新内容解读（2026.5.7）
-    link: /guide/version-v102
-  - icon: 📌
-    title: 当前版本 v1.0.2
-    details: 最后更新：2026-05-07
+    title: 发行计划更新
+    details: 国服2026 Q4，全球服调整至2027年
+    link: /news/release-schedule-202605
+  - icon: ⚔️
+    title: GVG攻城战攻略
+    details: 100v100公会战全解析，职业分工与战术策略
+    link: /guide/gvg-strategy
+  - icon: 📖
+    title: 进阶职业全览
+    details: 骑士、巫师、猎人、刺客等二转三转职业介绍
+    link: /jobs/advanced
+  - icon: 🎯
+    title: 配装推荐
+    details: 剑士、法师、刺客、弓箭手毕业配装指南
+    link: /jobs/swordman-equip
+  - icon: 💻
+    title: 系统配置要求
+    details: PC/移动端配置要求与安装指南
+    link: /guide/requirements
 ---

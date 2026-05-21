@@ -1,6 +1,7 @@
 ---
 title: 职业选择推荐
-description: RO3 六大职业优缺点对比，根据你的游戏风格推荐最适合的职业
+description: RO3 全职业分析，帮你快速找到最适合的职业
+lastUpdated: true
 ---
 
 # 职业选择推荐

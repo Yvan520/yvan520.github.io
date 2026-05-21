@@ -1,6 +1,7 @@
 ---
 title: RO3 新手 FAQ - 常见问题解答
-description: RO3 仙境传说3 新手常见问题，涵盖下载、职业、练级、氪金、交易等
+description: 仙境传说3新手入门必看，从职业选择、练级技巧到经济系统，18个常见问题全面解答。
+lastUpdated: true
 ---
 
 # 新手 FAQ

@@ -1,6 +1,7 @@
 ---
-title: v1.0.2 版本更新解读
-description: RO3 v1.0.2 职业平衡调整、新增古城副本、BUG修复
+title: v1.0.2 版本更新全解读
+description: RO3 职业平衡调整、新副本、经济系统优化
+lastUpdated: true
 ---
 
 # v1.0.2 版本更新全解读

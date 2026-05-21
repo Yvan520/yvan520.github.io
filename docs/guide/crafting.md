@@ -1,6 +1,7 @@
 ---
 title: 装备制作与精炼指南
-description: RO3 铁匠制作系统、装备精炼、属性附魔完全指南
+description: RO3 装备制作、精炼、附魔系统全方位攻略
+lastUpdated: true
 ---
 
 # 装备制作与精炼指南

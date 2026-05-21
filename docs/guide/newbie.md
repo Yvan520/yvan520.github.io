@@ -1,6 +1,7 @@
 ---
 title: 新手入坑完全指南
-description: RO3 仙境传说3 新手入门教程，从下载安装到满级全流程
+description: RO3 从零开始注册、下载、建角色到快速上手
+lastUpdated: true
 ---
 
 # 新手入坑完全指南

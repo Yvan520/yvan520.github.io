@@ -1,6 +1,7 @@
 ---
 title: 1-99级全职业练级路线
-description: RO3 各职业最优练级点、坐标、消耗品
+description: RO3 1到99级全职业练级路线，从南门波利到古城，快速升级攻略
+lastUpdated: true
 ---
 
 # 1-99级全职业练级路线

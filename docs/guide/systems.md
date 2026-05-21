@@ -1,6 +1,7 @@
 ---
-title: RO3 核心系统介绍 - 赛季制/多元宇宙/GVG
-description: RO3 赛季制、多元宇宙、GVG攻城战等特色系统详解
+title: RO3 核心系统介绍
+description: RO3 赛季制、多元宇宙、GVG 攻城战、百人副本等核心玩法系统全解析
+lastUpdated: true
 ---
 
 # RO3 核心系统介绍
