@@ -408,6 +408,82 @@
   font-size: 12px;
 }
 
+.VPNavBarHamburger {
+  color: #fff !important;
+}
+
+.VPNavBarHamburger span {
+  background-color: #fff !important;
+}
+
+.VPNavScreen {
+  background-color: #1A1A2E !important;
+}
+
+.VPNavScreen .VPNavScreenMenuLink {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.VPNavScreen .VPNavScreenMenuLink:hover {
+  color: #D4A843 !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .title {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .title:hover {
+  color: #D4A843 !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .title .text {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .title .text:hover {
+  color: #D4A843 !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .title {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .title .text {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .title .text:hover {
+  color: #D4A843 !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .VPScreenMenuGroup .title {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .VPScreenMenuGroup .title .text {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .VPScreenMenuGroup .title .text:hover {
+  color: #D4A843 !important;
+}
+
+.VPNavScreen .VPNavScreenMenuGroup .VPScreenMenuGroup .items .VPNavScreenMenuLink {
+  padding-left: 24px;
+}
+
+.VPNavScreen .VPNavScreenAppearance {
+  display: none;
+}
+
+.VPNavScreen .social-links {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .VPHero {
     min-height: 360px;
@@ -427,5 +503,9 @@
 
   .VPHome .VPFeatures .items {
     grid-template-columns: 1fr;
+  }
+
+  .VPHome .VPFeatures .item.grid-3 {
+    width: 100%;
   }
 }
