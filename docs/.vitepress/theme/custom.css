@@ -38,8 +38,8 @@
   --vp-layout-max-width: 1440px;
   --vp-content-max-width: 800px;
   --vp-home-hero-image: none;
-  --vp-nav-bg-color: #1A1A2E;
-  --vp-nav-screen-bg-color: #1A1A2E;
+  --vp-nav-bg-color: #2A2A4E;
+  --vp-nav-screen-bg-color: #2A2A4E;
 }
 
 ::selection {
@@ -65,7 +65,7 @@
 }
 
 .VPNavBar {
-  background-color: #1A1A2E !important;
+  background-color: #2A2A4E !important;
   border-bottom: 2px solid #D4A843;
 }
 
@@ -385,7 +385,7 @@
 }
 
 .VPFooter {
-  background: #1A1A2E !important;
+  background: #2A2A4E !important;
   border-top: 2px solid #D4A843;
   padding: 24px 0;
 }
