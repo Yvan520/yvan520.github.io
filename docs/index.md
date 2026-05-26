@@ -15,27 +15,27 @@ hero:
 
 features:
   - icon: 🆕
-    title: 最新消息
-    details: 国服2026 Q4，全球服2027年，日本GungHo代理
-    link: /news/release-schedule-202605
+    title: GDC腾讯云架构
+    details: RO3百万CCU并发架构，腾讯云技术支撑
+    link: /news/gdc-cloud-202603
+  - icon: 📖
+    title: 游戏世界观
+    details: 多元宇宙设定、Blagis角色、赛季制剧情
+    link: /guide/lore
+  - icon: 📊
+    title: 属性系统
+    details: STR/AGI/VIT/INT/DEX/LUK全解析
+    link: /guide/stats
   - icon: ⚔️
-    title: GVG攻城战
-    details: 100v100公会战全攻略，职业分工与战术策略
-    link: /guide/gvg-strategy
-  - icon: 💰
-    title: 赚钱攻略
-    details: 零氪必看！Zeny获取、搬砖技巧全指南
-    link: /guide/zeny-guide
-  - icon: 🐉
-    title: MVP狩猎
-    details: 蚁后、巴风特等BOSS打法与掉落全解析
-    link: /guide/mvp-hunting
-  - icon: 📋
-    title: 每日必做
-    details: 高效时间管理，经验收益最大化
-    link: /guide/daily-routine
-  - icon: 👥
-    title: 组队副本
-    details: 十人团队副本机制与职业搭配指南
-    link: /guide/party-play
+    title: PvP竞技场
+    details: 1v1/3v3/开放世界PVP全攻略
+    link: /guide/pvp-arena
+  - icon: 🛡️
+    title: 公会管理
+    details: 创建/管理公会、GVG组织、领地战
+    link: /guide/guild
+  - icon: 🚫
+    title: 新手避坑
+    details: 10个常见误区，少走弯路
+    link: /guide/mistakes
 ---
