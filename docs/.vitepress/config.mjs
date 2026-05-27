@@ -25,6 +25,7 @@ export default {
         { text: '职业选择推荐', link: '/guide/job-pick' },
         { text: '新手FAQ', link: '/guide/faq' },
         { text: '系统配置要求', link: '/guide/requirements' },
+        { text: 'RO1 vs RO3对比', link: '/guide/comparison' },
       ]},
       { text: '攻略进阶', items: [
         { text: '属性系统详解', link: '/guide/stats' },
@@ -40,6 +41,10 @@ export default {
         { text: '游戏世界观', link: '/guide/lore' },
         { text: '核心系统介绍', link: '/guide/systems' },
         { text: '装备制作与精炼', link: '/guide/crafting' },
+        { text: '赛季系统解析', link: '/guide/season' },
+        { text: '消耗品与Buff', link: '/guide/consumables' },
+        { text: '地图与传送', link: '/guide/maps' },
+        { text: '商城与F2P攻略', link: '/guide/cash-shop' },
       ]},
       { text: '职业攻略', items: [
         { text: '总览', link: '/jobs/' },
@@ -61,6 +66,7 @@ export default {
       ]},
       { text: '游戏资讯', items: [
         { text: '最新消息', link: '/news/' },
+        { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
         { text: 'GDC腾讯云架构', link: '/news/gdc-cloud-202603' },
         { text: '发行计划更新', link: '/news/release-schedule-202605' },
         { text: '内测深度测评', link: '/news/beta-preview-202602' },
@@ -86,6 +92,7 @@ export default {
             { text: '职业选择推荐', link: '/guide/job-pick' },
             { text: '新手FAQ', link: '/guide/faq' },
             { text: '系统配置要求', link: '/guide/requirements' },
+            { text: 'RO1 vs RO3对比', link: '/guide/comparison' },
           ],
         },
         {
@@ -104,6 +111,10 @@ export default {
             { text: '游戏世界观', link: '/guide/lore' },
             { text: '核心系统介绍', link: '/guide/systems' },
             { text: '装备制作与精炼', link: '/guide/crafting' },
+            { text: '赛季系统解析', link: '/guide/season' },
+            { text: '消耗品与Buff', link: '/guide/consumables' },
+            { text: '地图与传送', link: '/guide/maps' },
+            { text: '商城与F2P攻略', link: '/guide/cash-shop' },
             { text: '版本更新 v1.0.2', link: '/guide/version-v102' },
           ],
         },
@@ -119,6 +130,7 @@ export default {
           text: '游戏资讯',
           items: [
             { text: '最新消息', link: '/news/' },
+            { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
             { text: 'GDC腾讯云架构', link: '/news/gdc-cloud-202603' },
             { text: '发行计划更新 2027年', link: '/news/release-schedule-202605' },
             { text: '内测深度测评', link: '/news/beta-preview-202602' },
