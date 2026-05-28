@@ -15,6 +15,8 @@ export default {
     ['meta', { name: 'baidu-site-verification', content: 'codeva-67XZ55nBHo' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX', crossorigin: 'anonymous', async: '' }],
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-2N9XBTXY05', async: '' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2N9XBTXY05');`],
   ],
 
   themeConfig: {
