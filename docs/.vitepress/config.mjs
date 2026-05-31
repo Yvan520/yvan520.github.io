@@ -68,6 +68,7 @@ export default {
       ]},
       { text: '游戏资讯', items: [
         { text: '最新消息', link: '/news/' },
+        { text: '测试版将启', link: '/news/dev-diary-1-202605' },
         { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
         { text: 'GDC腾讯云架构', link: '/news/gdc-cloud-202603' },
         { text: '发行计划更新', link: '/news/release-schedule-202605' },
@@ -132,6 +133,7 @@ export default {
           text: '游戏资讯',
           items: [
             { text: '最新消息', link: '/news/' },
+            { text: '台港澳测试将启', link: '/news/dev-diary-1-202605' },
             { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
             { text: 'GDC腾讯云架构', link: '/news/gdc-cloud-202603' },
             { text: '发行计划更新 2027年', link: '/news/release-schedule-202605' },
