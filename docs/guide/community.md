@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 社区与资源汇总
 
+![RO3 普隆德拉北门全景](/images/prontera-north.jpg)
+
 ## 官方渠道
 
 ### 官方网站

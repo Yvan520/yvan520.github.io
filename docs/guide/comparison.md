@@ -21,6 +21,10 @@ lastUpdated: true
 
 ## 画面对比
 
+![RO3 vs RO1 普隆德拉对比](/images/prontera-compare1.jpg)
+
+![RO3 普隆德拉远景对比](/images/prontera-compare2.jpg)
+
 ### RO1
 - 经典2D像素风格
 - 俯视45度视角

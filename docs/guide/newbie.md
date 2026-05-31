@@ -17,6 +17,8 @@ lastUpdated: true
 | 收费模式 | 免费游玩 + 内购 |
 | 语言 | 简中 / 繁中 / 英文 / 日文等多语言 |
 
+![RO3 游戏画面预览](/images/prontera-church.jpg)
+
 ## 设备要求
 
 ### PC 最低配置

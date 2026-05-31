@@ -79,6 +79,8 @@ lastUpdated: true
 
 ## GVG公会战
 
+![RO3 骑士公会场景](/images/prontera-guild.jpg)
+
 详见 [GVG攻城战攻略](/guide/gvg-strategy)
 
 ### 公会战时间
