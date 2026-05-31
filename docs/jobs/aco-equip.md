@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 牧师毕业配装推荐
 
+![RO3 牧师配装](/images/prontera-church.jpg)
+
 **版本：v1.0.2**
 
 ## 核心属性优先级

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 地图与传送指南
 
+![RO3 普隆德拉世界](/images/prontera-compare1.jpg)
+
 ## 新手地图
 
 ### 普隆德拉周边

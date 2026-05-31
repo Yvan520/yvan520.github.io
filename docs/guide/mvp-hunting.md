@@ -6,6 +6,8 @@ lastUpdated: true
 
 # MVP BOSS 狩猎全攻略
 
+![RO3 城市全景](/images/prontera-city.jpg)
+
 MVP（Most Valuable Player）是RO系列标志性的世界BOSS玩法。RO3中的MVP BOSS不仅掉落顶级装备和卡片，还是后期最重要的收入来源之一。
 
 ## MVP基础知识

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # PvP竞技场与对战系统
 
+![RO3 骑士公会](/images/prontera-guild.jpg)
+
 除了大规模GVG攻城战外，RO3还提供了多种小规模PvP玩法，让玩家在不同场景中体验对抗乐趣。
 
 ## PvP模式一览

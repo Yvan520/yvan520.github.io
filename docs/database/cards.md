@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 卡片大全
 
+![RO3 卡片系统](/images/prontera-church.jpg)
+
 > 测试服数据尚未公开，以下为基于 RO 经典设定的卡片系统介绍和推测数据。正式上线后将持续更新。
 
 ## 卡片系统介绍

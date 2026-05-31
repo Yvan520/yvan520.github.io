@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 装备制作与精炼指南
 
+![RO3 制作系统](/images/prontera-compare4.jpg)
+
 ## 制作系统
 
 RO3 的装备制作系统由商人转职铁匠后解锁，可以制作各种武器、防具和饰品。

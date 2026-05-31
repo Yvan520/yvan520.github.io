@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 组队与团队副本攻略
 
+![RO3 普隆德拉街景](/images/prontera-compare3.jpg)
+
 RO3延续了RO强社交的MMO核心，组队是游戏后期最重要的玩法。从日常副本到十人团队副本，合理的队伍配置是通关的关键。
 
 ## 组队基础

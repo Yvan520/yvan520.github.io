@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 商城指南与F2P攻略
 
+![RO3 游戏场景](/images/prontera-compare1.jpg)
+
 ## 商城货币
 
 ### 基础货币

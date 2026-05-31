@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 赛季系统深度解析
 
+![RO3 普隆德拉北门](/images/prontera-north.jpg)
+
 赛季制是RO3最核心的设计之一，每赛季持续3-4个月，带来全新的游戏内容和挑战。
 
 ## 赛季基本规则

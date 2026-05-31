@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 系统配置要求与安装指南
 
+![RO3 游戏截图](/images/prontera-church.jpg)
+
 ## PC 端配置要求
 
 根据2025年8月Pioneer Test期间公布的信息，RO3的PC端配置要求如下：

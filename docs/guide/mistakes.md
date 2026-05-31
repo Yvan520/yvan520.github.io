@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 新手常见误区与避坑指南
 
+![RO3 普隆德拉街景](/images/prontera-compare2.jpg)
+
 ## 1. 过早转职
 
 **❌ 误区**：一到Lv.10就立刻转职。

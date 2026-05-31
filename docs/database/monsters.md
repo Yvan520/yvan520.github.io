@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 怪物图鉴
 
+![RO3 怪物世界](/images/prontera-compare4.jpg)
+
 > 测试服数据尚未公开，以下为基于官方预告片、GVG影片和 RO 经典设定的怪物分类概览。
 
 ## 已知怪物

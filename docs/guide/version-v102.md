@@ -6,6 +6,8 @@ lastUpdated: true
 
 # v1.0.2 版本更新全解读
 
+![RO3 版本更新](/images/prontera-compare1.jpg)
+
 更新日期：2026-05-07
 
 ::: info

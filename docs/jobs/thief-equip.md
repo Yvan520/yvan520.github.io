@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 刺客毕业配装推荐
 
+![RO3 刺客配装](/images/prontera-north.jpg)
+
 **版本：v1.0.2**
 
 ## 核心属性优先级

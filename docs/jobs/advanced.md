@@ -8,6 +8,8 @@ lastUpdated: true
 
 RO3延续了RO经典的转职体系，在达到一定等级后可以进行转职，解锁更强大的职业技能和玩法。
 
+![RO3 职业群像](/images/class-auIJjfbtsBwqBdw.jpg)
+
 ## 转职体系概览
 
 | 阶段 | 等级要求 | 说明 |

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 1-99级全职业练级路线
 
+![RO3 练级场景](/images/prontera-compare4.jpg)
+
 适用版本：v1.0.2
 
 ::: tip 核心原则

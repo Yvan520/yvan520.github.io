@@ -6,6 +6,8 @@ lastUpdated: true
 
 # RO3 核心系统介绍
 
+![RO3 城市全景](/images/prontera-city.jpg)
+
 了解 RO3 区别于其他 MMO 的特色系统。
 
 ## 赛季制

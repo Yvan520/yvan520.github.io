@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 商人毕业配装推荐
 
+![RO3 商人配装](/images/prontera-guild.jpg)
+
 **版本：v1.0.2**
 
 ## 核心属性优先级

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 新手 FAQ
 
+![RO3 大教堂](/images/prontera-church.jpg)
+
 ## 基础问题
 
 ### Q：RO3 什么时候上线？

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 弓箭手毕业配装推荐
 
+![RO3 弓箭手配装](/images/prontera-compare1.jpg)
+
 **版本：v1.0.2**
 
 ## 核心属性优先级

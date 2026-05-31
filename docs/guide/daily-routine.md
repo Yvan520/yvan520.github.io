@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 每日/每周必做任务清单
 
+![RO3 街景](/images/prontera-street.jpg)
+
 ## 每日必做（约45分钟）
 
 ### 优先级：⭐⭐⭐⭐⭐

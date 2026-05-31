@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 装备列表
 
+![RO3 装备系统](/images/prontera-compare3.jpg)
+
 > 测试服数据尚未公开，以下内容基于官方预告片、经典RO设定和已知信息整理。正式上线后将持续更新具体数值。
 
 ## 装备部位

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 属性（STAT）系统详解
 
+![RO3 属性系统](/images/prontera-north.jpg)
+
 RO3继承了RO经典的属性系统，六项基础属性的合理分配决定了角色的发展方向。
 
 ## 六项基础属性

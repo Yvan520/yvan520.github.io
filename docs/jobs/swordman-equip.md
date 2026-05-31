@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 剑士毕业配装推荐
 
+![RO3 剑士配装](/images/prontera-city.jpg)
+
 **版本：v1.0.2**
 
 ## 核心属性优先级

@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 消耗品与Buff指南
 
+![RO3 游戏截图](/images/prontera-compare3.jpg)
+
 ## 药水类
 
 ### HP恢复药水

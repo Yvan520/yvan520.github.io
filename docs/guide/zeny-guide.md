@@ -6,6 +6,8 @@ lastUpdated: true
 
 # 赚钱攻略 - Zeny获取全指南
 
+![RO3 普隆德拉全景](/images/prontera-compare2.jpg)
+
 RO3拥有自由交易系统，Zeny是游戏中的主要流通货币。掌握正确的赚钱方法，零氪也能玩得舒服。
 
 ## 新手赚钱（1-30级）
