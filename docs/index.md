@@ -72,14 +72,12 @@ features:
 
 | 日期 | 内容 |
 |------|------|
-| 05-31 | [RO3台港澳测试即将启动！开发者日志发布](/news/dev-diary-1-202605.md) |
-| 05-31 | [商城指南与F2P攻略](/guide/cash-shop.md) — 月卡分析、零氪规划 |
-| 05-31 | [RO1 vs RO3全面对比](/guide/comparison.md) — 新老玩家必看 |
-| 05-31 | [赛季系统深度解析](/guide/season.md) — 赛季制规则与策略 |
-| 05-31 | [消耗品与Buff指南](/guide/consumables.md) — 药水、料理、Buff全攻略 |
-| 05-30 | [地图与传送指南](/guide/maps.md) — 全地图传送费与练级路线 |
-| 05-27 | [SEC文件确认发行计划](/news/sec-filing-202603.md) — 中国2026 Q4 / 全球2027 |
-| 05-07 | [版本更新 v1.0.2 解读](/guide/version-v102.md) — 平衡调整、新副本 |
+| 2026-05-28 | [重制PC端 特效打击感升级 RO3（仙境传说3）最新实机演示 2026下半年台服三测准备中](https://www.bilibili.com/video/BV1MmGD64EJA) |
+| 2026-03-18 | [《RO3》3月14日线下闭门测试后的……读后感（这期视频质量很差，别打我）](https://www.bilibili.com/video/BV1xZwezbELi) |
+| 2026-05-08 | [仙境传说RO3国服又推迟了，明年2027第一季度](https://www.bilibili.com/video/BV1u8R2BDEad) |
+| 2026-02-17 | [提前玩到仙境传说3（RO3）内测 带来的详细测评：回归2D画风 百人团战+千人攻城 RO版逆水寒手游](https://www.bilibili.com/video/BV1fjcYzCEhK) |
+| 2025-07-31 | [《RO仙境传说3》首支完整实机预告片 预计2026年全球同步上线](https://www.bilibili.com/video/BV1S88yzvEar) |
+| 2026-06-03 | [RO3资讯日报 2026-06-03](/news/daily-2026-06-03.md) — 最新资讯汇总 |
 
 ## 💬 加入社区
 
