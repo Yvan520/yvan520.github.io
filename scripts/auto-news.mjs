@@ -159,9 +159,7 @@ ${desc}
 
   content += `::: tip
 本日报由系统自动抓取整理，仅供RO3玩家参考
-:::
-
-<Comments />`
+:::`
 
   const filePath = join(NEWS_DIR, `daily-${today}.md`)
   return { content, filePath }
