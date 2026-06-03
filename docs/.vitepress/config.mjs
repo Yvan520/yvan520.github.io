@@ -82,7 +82,12 @@ export default {
         { text: '国服版号获批', link: '/news/approval-202510' },
         { text: '更多新闻', link: '/news/' },
       ]},
-      { text: '社区资源', link: '/guide/community' },
+      { text: '社区', items: [
+        { text: '社区资源', link: '/guide/community' },
+        { text: '投稿与纠错', link: '/contribute' },
+        { text: 'Discord', link: 'https://discord.gg/ro3global' },
+        { text: '巴哈姆特', link: 'https://forum.gamer.com.tw/B.php?bsn=81475' },
+      ]},
       { text: '数据库', link: '/database/' },
     ],
 
@@ -125,6 +130,7 @@ export default {
           text: '社区',
           items: [
             { text: '社区与资源汇总', link: '/guide/community' },
+          { text: '投稿与纠错', link: '/contribute' },
           ],
         },
       ],

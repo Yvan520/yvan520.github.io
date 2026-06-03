@@ -4,38 +4,90 @@ layout: home
 hero:
   name: RO3 攻略站
   text: 仙境传说3 玩家指南
-  tagline: 2026年最全RO3攻略站，全职业攻略、配装推荐、赚钱技巧、MVP狩猎、GVG战术，每日更新
+  tagline: 63篇攻略 · 每日更新 · 全职业加点 · 配装推荐 · 最新资讯
+  image: /images/prontera-city.jpg
   actions:
     - theme: brand
       text: 查看职业攻略
       link: /jobs/
     - theme: alt
-      text: 练级路线
-      link: /guide/leveling
+      text: 新手入坑
+      link: /guide/newbie
+    - theme: alt
+      text: 加入Discord
+      link: https://discord.gg/ro3global
 
 features:
+  - icon: 📰
+    title: 最新消息
+    details: RO3台港澳测试即将启动！开发日志、SEC文件、GDC架构
+    link: /news/
   - icon: 🆕
-    title: GDC腾讯云架构
-    details: RO3百万CCU并发架构，腾讯云技术支撑
-    link: /news/gdc-cloud-202603
+    title: 新手入门
+    details: 入坑指南、FAQ、职业选择、配置要求、RO1 vs RO3对比
+    link: /guide/newbie
+  - icon: ⚔️
+    title: 全职业攻略
+    details: 剑士/法师/刺客/弓箭手/牧师/商人 + 进阶职业全览
+    link: /jobs/
+  - icon: 🛡️
+    title: 配装推荐
+    details: 6大职业毕业装、平民装、氪金装三套方案
+    link: /jobs/swordman-equip
+  - icon: 🎯
+    title: 练级路线
+    details: 1-99级全职业练级路线，高效升级指南
+    link: /guide/leveling
+  - icon: 💰
+    title: 赚钱攻略
+    details: Zeny获取全指南，零氪也能玩得舒服
+    link: /guide/zeny-guide
+  - icon: 👑
+    title: MVP狩猎
+    details: 世界BOSS全攻略，顶级装备掉落指南
+    link: /guide/mvp-hunting
+  - icon: 🏰
+    title: GVG攻城战
+    details: 百人规模GVG战术、公会管理、领土战策略
+    link: /guide/gvg-strategy
+  - icon: 📊
+    title: 赛季系统
+    details: 赛季制规则、通行证、段位奖励全解析
+    link: /guide/season
+  - icon: 🗺️
+    title: 地图与传送
+    details: 全地图指南、传送费用、练级路线推荐
+    link: /guide/maps
+  - icon: 🛒
+    title: 商城与F2P
+    details: 月卡分析、零氪攻略、钻石用途优先级
+    link: /guide/cash-shop
   - icon: 📖
     title: 游戏世界观
     details: 多元宇宙设定、Blagis角色、赛季制剧情
     link: /guide/lore
-  - icon: 📊
-    title: 属性系统
-    details: STR/AGI/VIT/INT/DEX/LUK全解析
-    link: /guide/stats
-  - icon: ⚔️
-    title: PvP竞技场
-    details: 1v1/3v3/开放世界PVP全攻略
-    link: /guide/pvp-arena
-  - icon: 🛡️
-    title: 公会管理
-    details: 创建/管理公会、GVG组织、领地战
-    link: /guide/guild
-  - icon: 🚫
-    title: 新手避坑
-    details: 10个常见误区，少走弯路
-    link: /guide/mistakes
 ---
+
+## 📌 最近更新
+
+| 日期 | 内容 |
+|------|------|
+| 05-31 | [RO3台港澳测试即将启动！开发者日志发布](/news/dev-diary-1-202605.md) |
+| 05-31 | [商城指南与F2P攻略](/guide/cash-shop.md) — 月卡分析、零氪规划 |
+| 05-31 | [RO1 vs RO3全面对比](/guide/comparison.md) — 新老玩家必看 |
+| 05-31 | [赛季系统深度解析](/guide/season.md) — 赛季制规则与策略 |
+| 05-31 | [消耗品与Buff指南](/guide/consumables.md) — 药水、料理、Buff全攻略 |
+| 05-30 | [地图与传送指南](/guide/maps.md) — 全地图传送费与练级路线 |
+| 05-27 | [SEC文件确认发行计划](/news/sec-filing-202603.md) — 中国2026 Q4 / 全球2027 |
+| 05-07 | [版本更新 v1.0.2 解读](/guide/version-v102.md) — 平衡调整、新副本 |
+
+## 💬 加入社区
+
+- **Discord**：[ro3global](https://discord.gg/ro3global) — 官方社区，测试报名、开发交流
+- **巴哈姆特**：[RO3 哈啦板](https://forum.gamer.com.tw/B.php?bsn=81475) — 台港澳玩家讨论区
+- **Facebook**：[RO3 官方粉丝团](https://www.facebook.com/RagnarokOnline3tc/)
+- **本攻略站**：内容持续更新中，欢迎 [反馈纠错](/contribute.md)
+
+---
+
+*RO3 攻略站 — 为每一位期待 RO3 的冒险者而建*
