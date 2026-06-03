@@ -7,7 +7,8 @@ const NEWS_DIR = join(__dirname, '..', 'docs', 'news')
 const INDEX_PAGE = join(__dirname, '..', 'docs', 'index.md')
 
 const KEYWORDS = ['RO3', '仙境传说3', 'Ragnarok Online 3', '仙境傳說3', 'RO仙境传说3']
-const MAX_RESULTS = 8
+const MAX_RESULTS = 10
+const MAX_DAYS_OLD = 90
 
 function slugify(text) {
   return text
@@ -39,6 +40,17 @@ function isDuplicate(title, existing) {
     if (hits >= 2 || (words.length > 0 && hits / words.length > 0.5)) return true
   }
   return false
+}
+
+function cleanHTML(str) {
+  return str.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').trim()
+}
+
+function isRecent(dateStr, maxDays) {
+  if (!dateStr) return true
+  const d = new Date(dateStr)
+  if (isNaN(d.getTime())) return true
+  return (Date.now() - d.getTime()) / 86400000 < maxDays
 }
 
 // === Sources ===
@@ -93,6 +105,11 @@ async function fetchGoogleNews() {
 // === Generate daily digest ===
 function genDigest(items) {
   const today = new Date().toISOString().slice(0, 10)
+  const [bilibili, news] = [
+    items.filter(i => i.source === 'B站'),
+    items.filter(i => i.source !== 'B站')
+  ]
+
   let content = `---
 title: RO3资讯日报 ${today}
 date: ${today}
@@ -101,19 +118,51 @@ description: 自动抓取的最新RO3资讯汇总，含B站视频、Google新闻
 
 # RO3资讯日报 ${today}
 
+> 📅 自动抓取 · ${today} · 共 ${items.length} 条
+
 `
 
-  for (const item of items) {
-    content += `## ${item.title}\n\n`
-    if (item.description) content += `${item.description}\n\n`
-    content += `> 📎 来源：[${item.source}](${item.url})`
-    if (item.date) content += `  ·  ${item.date}`
-    content += '\n\n---\n\n'
+  if (bilibili.length > 0) {
+    content += `## 🎬 B站视频\n\n`
+    for (const item of bilibili) {
+      const desc = item.description ? `  ${item.description.slice(0, 120)}` : ''
+      content += `<div class="news-card">
+
+### ${item.title}
+
+${desc}
+
+[▶ 观看视频 ↗](${item.url})
+
+</div>
+
+`
+    }
   }
 
-  content += `*本日报由系统自动抓取整理，仅供RO3玩家参考*\n`
+  if (news.length > 0) {
+    content += `## 📰 新闻资讯\n\n`
+    for (const item of news) {
+      content += `<div class="news-card">
 
-  const slug = slugify(`RO3日报-${today}`)
+### ${item.title}
+
+来源：${item.source}${item.date ? ` · ${item.date}` : ''}
+
+[阅读全文 ↗](${item.url})
+
+</div>
+
+`
+    }
+  }
+
+  content += `::: tip
+本日报由系统自动抓取整理，仅供RO3玩家参考
+:::
+
+<Comments />`
+
   const filePath = join(NEWS_DIR, `daily-${today}.md`)
   return { content, filePath }
 }
@@ -149,7 +198,7 @@ async function main() {
   ])
 
   const newItems = [...bilibili, ...googleNews]
-    .filter(item => item.title && !isDuplicate(item.title, existing))
+    .filter(item => item.title && !isDuplicate(item.title, existing) && isRecent(item.date, MAX_DAYS_OLD))
 
   console.log(`[AutoNews] B站: ${bilibili.length}, Google新闻: ${googleNews.length}`)
   console.log(`[AutoNews] 新内容: ${newItems.length}`)

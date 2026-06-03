@@ -75,8 +75,8 @@ features:
 | 2026-05-28 | [重制PC端 特效打击感升级 RO3（仙境传说3）最新实机演示 2026下半年台服三测准备中](https://www.bilibili.com/video/BV1MmGD64EJA) |
 | 2026-03-18 | [《RO3》3月14日线下闭门测试后的……读后感（这期视频质量很差，别打我）](https://www.bilibili.com/video/BV1xZwezbELi) |
 | 2026-05-08 | [仙境传说RO3国服又推迟了，明年2027第一季度](https://www.bilibili.com/video/BV1u8R2BDEad) |
-| 2026-02-17 | [提前玩到仙境传说3（RO3）内测 带来的详细测评：回归2D画风 百人团战+千人攻城 RO版逆水寒手游](https://www.bilibili.com/video/BV1fjcYzCEhK) |
-| 2025-07-31 | [《RO仙境传说3》首支完整实机预告片 预计2026年全球同步上线](https://www.bilibili.com/video/BV1S88yzvEar) |
+| 2026-03-16 | [仙境传说3线下闭门测试结束后的胡言乱语](https://www.bilibili.com/video/BV19Mw7zZEov) |
+| 2026-05-27 | [转载【仙境传说3】开发日志 Vol.1  Latest live gameplay revealed](https://www.bilibili.com/video/BV1eyGC6LEfV) |
 | 2026-06-03 | [RO3资讯日报 2026-06-03](/news/daily-2026-06-03.md) — 最新资讯汇总 |
 
 ## 💬 加入社区
