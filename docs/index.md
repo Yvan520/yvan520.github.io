@@ -5,7 +5,6 @@ hero:
   name: RO3 攻略站
   text: 仙境传说3 玩家指南
   tagline: 63篇攻略 · 每日更新 · 全职业加点 · 配装推荐 · 最新资讯
-  image: /images/prontera-city.jpg
   actions:
     - theme: brand
       text: 查看职业攻略
