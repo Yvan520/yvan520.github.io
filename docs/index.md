@@ -67,12 +67,6 @@ features:
     link: /guide/lore
 ---
 
-## 📌 最近更新
-
-| 日期 | 内容 |
-|------|------|
-| 2026-06-04 | 系统自动检查更新 |
-
 ## 💬 加入社区
 
 - **Discord**：[ro3global](https://discord.gg/ro3global) — 官方社区，测试报名、开发交流
