@@ -28,7 +28,6 @@ RO3 攻略站（以下简称"本站"）重视您的隐私。本站收集以下�
 本站使用以下第三方服务：
 - **Google AdSense**：展示广告
 - **Google Analytics**：流量分析
-- **GitHub Pages**：网站托管
 - **Cloudflare**（如适用）：CDN 加速
 
 各服务有其独立的隐私政策。
@@ -39,4 +38,4 @@ RO3 攻略站（以下简称"本站"）重视您的隐私。本站收集以下�
 
 ## 联系我们
 
-如有隐私相关问题，请通过 GitHub Issues 联系我们：[https://github.com/Yvan520/yvan520.github.io](https://github.com/Yvan520/yvan520.github.io)
+如有隐私相关问题，请通过 Discord 联系我们

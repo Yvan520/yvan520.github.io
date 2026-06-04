@@ -11,10 +11,7 @@ description: 欢迎为RO3攻略站贡献内容，纠错、投稿、建议，共�
 
 ### 纠错反馈
 
-发现攻略有误、链接失效、信息过时？
-
-- **GitHub Issues**：在 [GitHub 提交 Issue](https://github.com/Yvan520/yvan520.github.io/issues)
-- **直接修改**：Fork 仓库后提交 Pull Request
+发现攻略有误、链接失效、信息过时？请在 Discord 联系站长。
 
 ### 投稿攻略
 
@@ -26,7 +23,7 @@ description: 欢迎为RO3攻略站贡献内容，纠错、投稿、建议，共�
 - 副本/GVG 实战技巧
 - 赚钱/练级心得
 
-请将稿件发送至 GitHub Issues 或加入 Discord 联系站长。
+请加入 Discord 联系站长投稿。
 
 ## 内容规范
 
@@ -38,8 +35,4 @@ description: 欢迎为RO3攻略站贡献内容，纠错、投稿、建议，共�
 
 每一位贡献者都会在页面中署名致谢！
 
-## 💬 评论功能
 
-本站即将启用 GitHub Discussions 作为评论系统。启用后，你可以在每篇文章下方留言讨论。
-
-> 站长需要前往 GitHub 仓库 Settings 开启 Discussions 功能才能启用评论。
