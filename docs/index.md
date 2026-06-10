@@ -4,7 +4,7 @@ layout: home
 hero:
   name: RO3 攻略站
   text: 仙境传说3 玩家指南
-  tagline: 63篇攻略 · 每日更新 · 全职业加点 · 配装推荐 · 最新资讯
+  tagline: 全职业攻略 · 配装推荐 · 最新资讯 · 持续更新
   actions:
     - theme: brand
       text: 查看职业攻略
@@ -66,6 +66,15 @@ features:
     details: 多元宇宙设定、Blagis角色、赛季制剧情
     link: /guide/lore
 ---
+
+## 📌 最近更新
+
+| 日期 | 内容 |
+|------|------|
+| 2026-06-04 | [RO3三测来了？我把台服消息全扒了一遍](/news/ro3-test-analysis.html) |
+| 2026-05-28 | [开发者日志：PC版重做中，台港澳测试即将开启](/news/dev-diary-1-202605.html) |
+| 2026-05-08 | [RO3 SEC文件透露全球同步+端手互通策略](/news/sec-filing-202603.html) |
+| 2026-04-15 | [GDC 2026：RO3云游戏版本曝光](/news/gdc-cloud-202603.html) |
 
 ## 💬 加入社区
 
