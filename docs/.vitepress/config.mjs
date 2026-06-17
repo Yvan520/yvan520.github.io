@@ -140,6 +140,7 @@ export default {
           items: [
             { text: '最新消息', link: '/news/' },
             { text: '「启燃测试」6月25日开跑', link: '/news/ignition-test-announced' },
+            { text: '共創議事錄：广告实机/手动收益/城战大改', link: '/news/co-creation-report-2' },
             { text: '三测分析：台服消息全盘点', link: '/news/ro3-test-analysis' },
             { text: '台港澳测试将启', link: '/news/dev-diary-1-202605' },
             { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
