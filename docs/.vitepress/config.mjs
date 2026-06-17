@@ -139,6 +139,7 @@ export default {
           text: '游戏资讯',
           items: [
             { text: '最新消息', link: '/news/' },
+            { text: '「启燃测试」6月25日开跑', link: '/news/ignition-test-announced' },
             { text: '三测分析：台服消息全盘点', link: '/news/ro3-test-analysis' },
             { text: '台港澳测试将启', link: '/news/dev-diary-1-202605' },
             { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },

@@ -71,6 +71,7 @@ features:
 
 | 日期 | 内容 |
 |------|------|
+| 2026-06-05 | [RO3「启燃测试」6月25日开跑，招募即日开放](/news/ignition-test-announced.html) |
 | 2026-06-04 | [RO3三测来了？我把台服消息全扒了一遍](/news/ro3-test-analysis.html) |
 | 2026-05-28 | [开发者日志：PC版重做中，台港澳测试即将开启](/news/dev-diary-1-202605.html) |
 | 2026-05-08 | [RO3 SEC文件透露全球同步+端手互通策略](/news/sec-filing-202603.html) |
