@@ -80,6 +80,7 @@ RO3攻略站是一个由玩家维护的《仙境传说3》中文资料站。RO3�
 
 | 日期 | 内容 |
 |------|------|
+| 2026-06-17 | [启燃测试倒计时一周，准备清单请收好](/news/ignition-test-prep.html) |
 | 2026-06-10 | [RO3开发团队这回认真了：广告实机、手动强于挂机、城战大改](/news/co-creation-report-2.html) |
 | 2026-06-05 | [RO3「启燃测试」6月25日开跑，招募即日开放](/news/ignition-test-announced.html) |
 | 2026-06-04 | [RO3三测来了？我把台服消息全扒了一遍](/news/ro3-test-analysis.html) |
