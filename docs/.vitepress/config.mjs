@@ -139,6 +139,8 @@ export default {
           text: '游戏资讯',
           items: [
             { text: '最新消息', link: '/news/' },
+            { text: 'RO3赛季制到底怎么玩？', link: '/news/season-system-deep-dive' },
+            { text: 'RO3到底会不会很氪？', link: '/news/ro3-pay-to-win-analysis' },
             { text: '启燃测试准备清单', link: '/news/ignition-test-prep' },
             { text: '「启燃测试」6月25日开跑', link: '/news/ignition-test-announced' },
             { text: '共創議事錄：广告实机/手动收益/城战大改', link: '/news/co-creation-report-2' },
