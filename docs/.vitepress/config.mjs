@@ -68,6 +68,11 @@ export default {
       ]},
       { text: '游戏资讯', items: [
         { text: '最新消息', link: '/news/' },
+        { text: '启燃测试七天：玩家在骂什么', link: '/news/ignition-test-review' },
+        { text: '制作人直播说了什么？', link: '/news/producer-livestream-feedback' },
+        { text: '赛季制深度解析', link: '/news/season-system-deep-dive' },
+        { text: 'RO3到底会不会很氪', link: '/news/ro3-pay-to-win-analysis' },
+        { text: '启燃测试准备指南', link: '/news/ignition-test-prep' },
         { text: '测试版将启', link: '/news/dev-diary-1-202605' },
         { text: 'SEC文件确认发行', link: '/news/sec-filing-202603' },
         { text: 'GDC腾讯云架构', link: '/news/gdc-cloud-202603' },

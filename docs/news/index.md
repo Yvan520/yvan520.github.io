@@ -9,8 +9,11 @@ description: RO3 仙境传说3 最新官方资讯动态
 
 ## 2026年
 
+- [启燃测试七天，巴哈快吵翻了——测试玩家到底在骂什么](/news/ignition-test-review) (2026-07)
+- [制作人直播说了什么？启燃测试后RO3还能救吗](/news/producer-livestream-feedback) (2026-07)
 - [RO3赛季制到底怎么玩？一次讲清楚](/news/season-system-deep-dive) (2026-06)
 - [RO3到底会不会很氪？从泰服炎上到台服调整](/news/ro3-pay-to-win-analysis) (2026-06)
+- [启燃测试倒计时一周，准备清单请收好](/news/ignition-test-prep) (2026-06)
 - [RO3「全民领土战」玩法实机预告片发布](/news/territory-war-202603) (2026-03)
 - [RO3 日本服宣布由 GungHo 代理发行](/news/japan-launch-202602) (2026-02)
 - [RO3 七大职业立绘首度曝光](/news/artworks-202603)
