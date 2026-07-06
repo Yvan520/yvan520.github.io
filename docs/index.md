@@ -86,6 +86,7 @@ RO3（Ragnarok Online 3）是Gravity授权、JoyMaker开发的RO系列正统续�
 
 | 日期 | 内容 |
 |------|------|
+| 2026-07-04 | [启燃测试关服了，然后呢？——RO3接下来会怎么走](/news/post-ignite-next-steps.html) |
 | 2026-07-02 | [启燃测试七天，巴哈快吵翻了——测试玩家到底在骂什么](/news/ignition-test-review.html) |
 | 2026-07-02 | [制作人直播说了什么？启燃测试后RO3还能救吗](/news/producer-livestream-feedback.html) |
 | 2026-06-23 | [RO3赛季制到底怎么玩？一次讲清楚](/news/season-system-deep-dive.html) |

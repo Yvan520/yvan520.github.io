@@ -68,7 +68,8 @@ export default {
       ]},
       { text: '游戏资讯', items: [
         { text: '最新消息', link: '/news/' },
-        { text: '启燃测试七天：玩家在骂什么', link: '/news/ignition-test-review' },
+        { text: '启燃测试关服了，然后呢？', link: '/news/post-ignite-next-steps' },
+            { text: '启燃测试七天：玩家在骂什么', link: '/news/ignition-test-review' },
         { text: '制作人直播说了什么？', link: '/news/producer-livestream-feedback' },
         { text: '赛季制深度解析', link: '/news/season-system-deep-dive' },
         { text: 'RO3到底会不会很氪', link: '/news/ro3-pay-to-win-analysis' },
@@ -144,6 +145,7 @@ export default {
           text: '游戏资讯',
           items: [
             { text: '最新消息', link: '/news/' },
+            { text: '启燃测试关服了，然后呢？', link: '/news/post-ignite-next-steps' },
             { text: 'RO3赛季制到底怎么玩？', link: '/news/season-system-deep-dive' },
             { text: 'RO3到底会不会很氪？', link: '/news/ro3-pay-to-win-analysis' },
             { text: '启燃测试准备清单', link: '/news/ignition-test-prep' },
